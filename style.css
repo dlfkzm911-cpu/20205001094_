@@ -1,0 +1,322 @@
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.bt_00{
+     z-index: 10;
+    position: absolute;
+    /* border: 1px solid red; */
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+}
+.video_wrap {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center; /* 가로 가운데 */
+    align-items: center;     /* 세로 가운데 */
+    overflow: hidden;
+    z-index: 1;
+}
+video {
+    min-width: 100%;
+    min-height: 100vh;
+    display: block;
+}
+
+.box{width: 100%;position: relative;}
+.a_box{height: 950px; background-image: url(img/1qo.png);}
+.b_box{height: 937px; background-image: url(img/2qo.png);}
+.c_box{height: 973px; background-image: url(img/3qo.png);}
+.d_box{height: 960px;background-image: url(img/4qo.png);}
+.e_box{height: 940px; background-image: url(img/5qo.png);}
+.f_box{height: 939px; background-image: url(img/6qo.png);}
+
+/* a박스 */
+.a_002{
+   position: absolute;
+   width: 361px;
+   height: 100px; 
+   top: 134px;
+   left: 15px;
+}
+.a_001{
+    position: relative;
+}
+.font01{
+    position: relative;
+    font-size: 24px;
+    color: #827157;
+    text-align: center;
+    font-weight: 600;
+    top: -1389px;
+    margin-right: 15px;
+}
+.font02{
+    position: relative;
+    font-size: 16px;
+    color: #827157;
+    text-align: left;
+    font-weight: 600;
+    top: -870px;
+    margin-left: 30px;
+}
+.a_003{
+    position: relative;
+    width: 234px;
+    height: 412px;
+    top: -690px;
+    left: 80px;
+}
+.a_004{
+    position: relative;
+    width: 416px;
+    height: 160px;
+    top: -690px;
+    right: 12px;
+}
+
+/* b박스 */
+.b_001{
+    position: absolute;
+
+}
+.b_002{
+    position: relative;
+    width: 367px;
+    height: 339px;
+    top: 42px ;
+    left: 9px;
+}
+.b_003{
+    position: relative;
+    width:238px ;
+    height: 514px;
+    top: 22px;
+    left: 24px;     
+}
+
+.font03{
+    position: relative;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    top: -820px;;
+    margin-left: -44px;
+}
+.font04{
+    position: relative;
+    font-size: 18px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 700;
+    top: -769px;
+    margin-left: 61px;
+}
+.font05{
+  position: relative;
+    font-size: 17px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 600;
+    top: -950px;
+    margin-left: 103px;
+}
+/* c박스 */
+.c_001{
+    position: absolute;
+}
+.c_002{
+    position: relative;
+    width: 367px;
+    height: 312px;
+    top: 71px ;
+    left: 9px;
+}
+.c_003{
+    position: relative;
+    width:287px ;
+    height: 464px;
+    top: 115px;
+    right: -79px;
+}
+.font06{
+    position: relative;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    top: -712px;;
+    margin-right: 44px;
+}
+.font07{
+    position: relative;
+    font-size: 18px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 700;
+    top: -680px;
+    margin-left: 61px;
+}
+.font08{
+  position: relative;
+    font-size: 17px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 600;
+    top: -860px;
+    margin-left: 103px;
+}
+/* d박스 */
+.d_001{
+    position: absolute;
+}
+.d_002{
+    position: relative;
+    width: 367px ;
+    height:347px ;
+    top: 40px;
+    left: 10px;
+}
+.d_003{
+    position: relative;
+    width: 341.84px;
+    height: 448px;
+    top: 18px;
+    left: 21px;
+}
+.font09{
+    position: relative;
+    font-size: 32px;
+    color: #3A3A3A;
+    text-align: center;
+    font-weight: 600;
+    top: -761px;;
+    margin-right: 41px;
+}
+.font10{
+    position: relative;
+    font-size: 18px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 700;
+    top: -708px;
+    margin-left: 61px;
+}
+.font11{
+  position: relative;
+    font-size: 17px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 600;
+    top: -890px;
+    margin-left: 103px;
+}
+
+/* e박스 */
+.e_001{
+    position: absolute;
+}
+
+.e_002{
+    position: relative;
+    width: 367px;
+    height: 313px;
+    top: 40px;
+    left: 12px;
+}
+.e_003{
+    position: relative;
+    width: 290px;
+    height: 468px;
+    top: 58px;
+    left: 80px;
+}
+.font12{
+    position: relative;
+    font-size: 32px;
+    color: #533301;
+    text-align: center;
+    font-weight: 600;
+    top: -742px;;
+    margin-right: 44px;
+}
+.font13{
+    position: relative;
+    font-size: 18px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 700;
+    top: -720px;
+    margin-left: 60px;
+}
+.font14{
+    position: relative;
+    font-size: 17px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 600;
+    top: -901px;
+    margin-left: 104px;
+}
+/* f박스 */
+.f_001{
+    position: absolute;
+}
+
+.f_002{
+    position: relative;
+    width: 367px;
+    height: 320px;
+    top: 50px;
+    left: 10px;
+}
+
+.f_003{
+    position: relative;
+    width: 226px;
+    height: 468px;
+    top: 51px;
+    left: 19px;
+}
+.font15{
+    position: relative;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    top: -741px;;
+    margin-right: 44px;
+}
+.font16{
+   position: relative;
+    font-size: 18px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 700;
+    top: -717px;
+    margin-left: 54px;
+}
+.font17{
+    position: relative;
+    font-size: 17px;
+    color:#574B39;
+    text-align: left;
+    font-weight: 600;
+    top: -898px;
+    margin-left: 103px;
+}
+
+
+
+
+
+
+
